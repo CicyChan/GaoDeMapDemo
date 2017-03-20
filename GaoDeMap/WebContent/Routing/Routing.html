@@ -1,0 +1,18 @@
+<html>
+<head>
+<title> Demo for AutoNavi Map </title>
+<!-- Include Auto Navi App -->
+<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.3&key=XXXXXXXX"></script>
+<script type="text/javascript" src="AutoNaviRoutingService.js"></script>
+</head>
+<body>
+<p>
+	From  <input type="text" name="nFrom" id = "AddressFrom" style="margin-right: 10px">
+	via  <input type="text" name="nVia" id = "AddressVia" style="margin-right: 10px">
+	To <input type="text" name="nTo" id = "AddressTo" style="margin-right: 10px">
+	
+	<button type = "button" onClick="AutoNaviRoute()"> Show Route</button>
+</p>
+<div id="GaodeMap" style="width: 100% ; height: 80%"></div>
+</body>
+</html>
